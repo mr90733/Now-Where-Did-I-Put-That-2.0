@@ -1,3 +1,8 @@
+#pragma once
+
 #include <string>
 
-std::string hello();
+int find(const std::string& phrase, char search);
+
+int find(const std::string& phrase, const std::string& search);
+
